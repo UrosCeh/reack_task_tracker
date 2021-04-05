@@ -13,7 +13,7 @@ Button.deafaultProps = {
 }
 
 Button.propTypes = {
-    text: PropTypes.string.isRequired,
+    text: PropTypes.any.isRequired,
     color: PropTypes.string,
     onClick: PropTypes.func,
 }
